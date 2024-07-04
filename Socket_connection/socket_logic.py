@@ -14,7 +14,6 @@ class SocketConnect:
             while attempts < max_attempts:
                 try:
                     self.sock.connect((self.ip_analizador, self.port))
-                    print("Conexión exitosa al analizador.")
                     return self.sock
                 except ConnectionRefusedError as e:
                     attempts += 1

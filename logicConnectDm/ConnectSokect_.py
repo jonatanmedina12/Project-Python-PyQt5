@@ -4,7 +4,7 @@ from LogicConnectFuntions.bidireccional import BidireccionalConnect
 class MainConnect:
     def __init__(self, data):
         self.data = data
-        self.connect = sqlConfiguration("desarrollo4", "Colcan2024*")
+        self.connect = sqlConfiguration("desarrollo4", "*")
         self.conectado = False
 
     def connect_to_analyzer(self):
