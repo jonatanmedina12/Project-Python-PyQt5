@@ -66,7 +66,7 @@ class Configuration(QWidget):
         self.endpoints_layout = None
         self.endpoints_group_box = None
         self.methods_scroll_area = None
-        self.configSql = sqlConfiguration("desarrollo4", "Colcan2024*")
+        self.configSql = sqlConfiguration("desarrollo4", "*")
         self.method_widgets = []  # Lista para almacenar los widgets de método
         self.endpointOriginal = None
         self.predefined_functions = [

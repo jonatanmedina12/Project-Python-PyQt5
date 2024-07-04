@@ -194,7 +194,7 @@ class Background(QWidget):
 if __name__ == "__main__":
     import sys
 
-    sqlconnect = sqlConfiguration("desarrollo4", "Colcan2024*")
+    sqlconnect = sqlConfiguration("desarrollo4", "")
     sqlconnect.create_connection()
     app = QApplication(sys.argv)
     background = Background()

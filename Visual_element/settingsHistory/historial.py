@@ -204,7 +204,7 @@ class DetailDialog(QDialog):
 class Historial(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.sql_config = sqlConfiguration("desarrollo4", "Colcan2024*")
+        self.sql_config = sqlConfiguration("desarrollo4", "*")
         self.conn = None
         self.current_page = 0
         self.items_per_page = 50
