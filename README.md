@@ -25,7 +25,7 @@ Para ejecutar esta aplicación, necesitarás:
 
 1. Clona este repositorio:
    ```
-   git clone https://github.com/tu-usuario/nombre-del-repo.git
+   git clone https://github.com/jonatanmedina12/Project-Python-PyQt5.git
    ```
 
 2. Navega al directorio del proyecto:
