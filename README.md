@@ -30,7 +30,7 @@ Para ejecutar esta aplicación, necesitarás:
 
 2. Navega al directorio del proyecto:
    ```
-   cd nombre-del-repo
+   cd Project-Python-PyQt5
    ```
 
 3. Instala las dependencias:
@@ -52,4 +52,5 @@ Las contribuciones son bienvenidas. Por favor, abre un issue para discutir cambi
 
 ## Licencia
 
+Apache-2.0 license
 
